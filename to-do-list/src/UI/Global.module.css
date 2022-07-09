@@ -1,0 +1,61 @@
+.div-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 7px 5px 7px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    border: 1px solid brown;
+    width: 400px;
+}
+
+.input {
+    padding: 5px;
+}
+
+.main {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 8px 16px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    border: 1px solid brown;
+    width: 400px;
+    padding: 5px 10px 5px 10px;
+}
+
+.list-item * {
+    margin-right: 5px
+}
+
+.list-button {
+    margin-right: auto;
+}
